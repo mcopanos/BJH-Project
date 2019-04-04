@@ -49,10 +49,13 @@ const getPngCount = () => {
 
 // find twitter handle
 const findTwitterHandle = () => {
-    // credit for this regex goes to https://stackoverflow.com/a/6024856/8954321
+    // credit for this regular expression goes to https://stackoverflow.com/a/6024856/8954321
     let regexp = /http(?:s)?:\/\/(?:www\.)?twitter\.com\/([a-zA-Z0-9]+)/;
     let twitterHandle = html.match(regexp);
     document.querySelector('#twitter-handle').innerHTML = twitterHandle[1];
+
+    let link = document.getElementById('twitter');
+    link.href = `https://twitter.com/${twitterHandle[1]}`;
 };
 
 // find how many times "financial institution" is used

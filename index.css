@@ -1,11 +1,36 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 #main {
     background-color: #fff;
 }
-.main-h1 {
+.main {
     text-align: center;
 }
+
+.section {
+    padding: 2em 0 2em 0;
+}
+.card {
+    padding: 1.5em 0 1.5em 0;
+}
+
+.list-section {
+    text-align: center;
+}
+
+.first-list {
+    font-size: 1.2em;
+    list-style-type: none;
+    padding: .5em;;
+}
+
+.second-list li {
+    text-align: center;
+    list-style-type: none;
+}
+
+

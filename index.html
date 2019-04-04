@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <title>Code Project</title>
@@ -14,10 +15,37 @@
         <!-- Header -->
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 class="main-h1 display-4">Random Facts about Banno's main page</h1>
+                <h1 class="main display-4">Random Facts about Banno's main page</h1>
             </div>
         </div>
-
+        <div class="container section">
+            <h2 class="main">Did You Know?</h2>
+        </div>
+        <!-- List of facts-->
+        <div class="card text-center">
+            <div class="card-header"></div>
+            <div class="card-body">
+                <ul class=" first-list card-title">
+                    <li class="card-text">Banno offers different <span id="products"></span> products</li>
+                    <li class="card-text">The top 3 used Alphanumeric characters are
+                        <ul class="second-list">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                        </ul>
+                    </li>
+                    <li class="card-text">There are <span id="png"></span> png images on just the main page of Banno's site</li>
+                    <li class="card-text">You can follow Banno on twitter
+                        <a id="twitter" href="" target="_blank">
+                            @<span id="twitter-handle"></span>
+                        </a>
+                    </li>
+                    <li class="card-text">The Phrase "financial institution shows up <span id="financial-institution"></span> on the main page of Banno's site</li>
+                </ul>
+            </div>
+            <div class="card-footer text-muted"></div>
+        </div>
+        </div>
     </div>
 </body>
 <script src="index.js"></script>
