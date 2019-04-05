@@ -4,9 +4,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+#hidden-content {
+    display: none;
+}
+
 #main {
     background-color: #fff;
 }
+
 .main {
     text-align: center;
 }
@@ -14,6 +19,7 @@
 .section {
     padding: 2em 0 2em 0;
 }
+
 .card {
     padding: 1.5em 0 1.5em 0;
 }
@@ -33,4 +39,7 @@
     list-style-type: none;
 }
 
+.footer {
+    height: 19.5em
+}
 
